@@ -16,4 +16,10 @@ void setup() {
 void draw() {
   
   background(100, 10, 100); // Background color as rgb values
+  
+  ellipseMode(CENTER); //Draw ellipse and center them
+  ellipse(x,250,50,50);
+  
+  ellipseMode(CENTER);
+  ellipse(x,y,50,50);
 }
