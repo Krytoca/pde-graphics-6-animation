@@ -1,4 +1,4 @@
-int x;
+int x;//Make values for x and y to manipulate later
 
 int deltax = 1;
 
@@ -7,6 +7,10 @@ int deltay = 1;
 int y;
 void setup() {
   size(700, 500); // Size of canvas
+  
+  x=width/2;//Put x and y at center of window
+  
+  y=height/2;
 }
 
 void draw() {
